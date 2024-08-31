@@ -6,6 +6,7 @@ import UseStateWithArrays from "./components/UseStateWithArrays";
 import UseStateWithObjects from "./components/UseStateWithObjects";
 import CounterClassComponent from "./components/CounterClassComponent";
 import UseEffectCounter from "./components/UseEffectCounter";
+import UseEffectCounterWithTimer from "./components/UseEffectCounterWithTimer";
 
 function App() {
   return <div className="App">
@@ -15,7 +16,8 @@ function App() {
       {/* <UseStateWithArrays />  */}
       {/* <UseStateWithObjects /> */}
       {/* <ClassCounter /> */}
-      <UseEffectCounter />
+      {/* <UseEffectCounter /> */}
+      <UseEffectCounterWithTimer />
     </div>;
 }
 
