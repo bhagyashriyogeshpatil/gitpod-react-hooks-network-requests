@@ -11,6 +11,7 @@ import UseEffectCounterWithTimerContainer from "./components/UseEffectCounterWit
 import React from 'react';
 import HTTPRequests from "./components/HTTPRequests";
 import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
 
 function App() {
   return <div className="App">
@@ -23,7 +24,8 @@ function App() {
       {/* <UseEffectCounter /> */}
       {/* <UseEffectCounterWithTimerContainer /> */}
       {/* <HTTPRequests /> */}
-      <HTTPPost />
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
     </div>;
 }
 
